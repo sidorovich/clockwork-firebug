@@ -16,7 +16,7 @@ Check out:
 - [Clockwork for command-line](https://github.com/ptrofimov/clockwork-cli)
 - [Web app version of Clockwork](http://github.com/itsgoingd/clockwork-web)
 
-![](http://s17.postimg.org/pwlu7pj0v/clockwork_firebug_timeline.png)
+![](http://s30.postimg.org/hh9qav7kx/clockwork_firebug_timeline.png)
 
 ![](http://s30.postimg.org/wjcbaowf5/clockwork_firebug_log.png)
 
