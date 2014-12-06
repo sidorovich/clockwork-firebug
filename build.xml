@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+
+<project name="clockwork-firebug" basedir="." default="build">
+
+    <!-- Directories -->
+    <property name="build.dir" value="./build/"/>
+    <property name="xpi.filename" value="clockwork-firebug.xpi" />
+
+    <target name="clean">
+        <delete dir="${build.dir}" />
+    </target>
+
+    <target name="build" depends="clean">
+        <antcall target="prepare-build" />
+        <antcall target="create-xpi" />
+        <antcall target="clean-after-build" />
+    </target>
+
+    <!-- Prepare build files -->
+    <target name="prepare-build">
+        <mkdir dir="${build.dir}" />
+
+        <!-- Copy all files -->
+        <copy todir="${build.dir}">
+            <fileset dir=".">
+                <include name="**/*.js"/>
+                <include name="**/*.xul"/>
+                <include name="**/*.properties"/>
+                <include name="**/*.css"/>
+                <include name="**/*.html"/>
+                <include name="**/*.xml"/>
+                <include name="**/*.dtd"/>
+                <include name="**/*.png"/>
+                <include name="**/*.gif"/>
+                <include name="**/*.svg"/>
+                <include name="**/*.ico"/>
+                <include name="**/*.manifest"/>
+                <include name="**/*.rdf"/>
+                <include name="**/*.txt"/>
+            </fileset>
+        </copy>
+
+        <!-- Remove unnecessary *.xml files in the root directory (like e.g. this build file),
+        but not from sub directories. -->
+        <delete dir="${build.dir}" includes="*.xml" />
+        <delete dir="${build.dir}/.idea" />
+    </target>
+
+    <target name="create-xpi">
+        <zip destfile="${build.dir}/${xpi.filename}" basedir="${build.dir}" update="true" />
+    </target>
+
+    <target name="clean-after-build">
+        <delete includeemptydirs="true">
+            <fileset dir="${build.dir}">
+                <include name="**/*" />
+                <exclude name="**/*.xpi" />
+            </fileset>
+        </delete>
+    </target>
+</project>

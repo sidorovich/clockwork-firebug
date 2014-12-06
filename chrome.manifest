@@ -1,0 +1,4 @@
+content clockwork_firebug chrome/content/ xpcnativewrappers=no
+skin    clockwork_firebug classic/1.0 chrome/skin/
+
+overlay chrome://firebug/content/firebugOverlay.xul chrome://clockwork_firebug/content/clockwork_firebug.xul
