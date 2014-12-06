@@ -16,9 +16,9 @@ Check out:
 - [Clockwork for command-line](https://github.com/ptrofimov/clockwork-cli)
 - [Web app version of Clockwork](http://github.com/itsgoingd/clockwork-web)
 
-![](https://drive.google.com/open?id=0B0oH5QtMFjKKdjZQbEpsWk45Tnc&authuser=0)
+![](http://s17.postimg.org/pwlu7pj0v/clockwork_firebug_timeline.png)
 
-![](https://drive.google.com/open?id=0B0oH5QtMFjKKQU5FdXkxcnBtVDA&authuser=0)
+![](http://s30.postimg.org/wjcbaowf5/clockwork_firebug_log.png)
 
 ## Installation
 
