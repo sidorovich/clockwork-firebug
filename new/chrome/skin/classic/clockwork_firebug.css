@@ -1,0 +1,175 @@
+.cwfbPreLoader {
+    min-width: 18px;
+    min-height: 18px;
+    background: url("chrome://clockwork_firebug/skin/classic/loading.gif") no-repeat;
+}
+
+.cwfbTabs {
+    width: 100%;
+    display: inline-block;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Tahoma', sans-serif;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.cwfbTabLinks:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.cwfbTabLinks li {
+    margin: 0 2px;
+    float: left;
+    list-style: none;
+}
+
+.cwfbTabLinks a {
+    padding: 4px 7px;
+    display: inline-block;
+    border-radius: 3px 3px 0 0;
+    background: #d4d4d4;
+    font-size: 11px;
+    font-weight: bold;
+    color: #4c4c4c;
+    transition: all linear 0.15s;
+}
+
+.cwfbTabLinks a:hover {
+    background: #dddddd;
+    text-decoration: none;
+}
+
+.cwfbTabLinks li.active a, .cwfbTabLinks li.active a:hover {
+    background: #f5f5f5;
+    color: #4c4c4c;
+}
+
+.cwfbTabContent {
+    margin-top: -12px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+    background: #f5f5f5;
+}
+
+.cwfbTabContent .cwfbTab {
+    display: none;
+}
+
+.cwfbTabContent .cwfbTab.active {
+    display: block;
+}
+
+.cwfbTimeLines {
+    width: 100%;
+}
+
+.cwfbTimeLines tr td {
+    white-space: nowrap;
+}
+
+.cwfbTimeLines tr td.timeLine {
+    width: 99%;
+}
+
+.cwfbTimeLines tr td div {
+    float: left;
+    min-height: 10px;
+}
+
+.cwfbTimeLines tr td div.innerTimeLine {
+    border-radius: 3px;
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.cwfbTimeLines tr td div.innerTimeLine.total {
+    background: #f796ef;
+}
+
+.cwfbTimeLines tr td div.innerTimeLine.line1 {
+    background: #9e96f7;
+}
+
+.cwfbTimeLines tr td div.innerTimeLine.line2 {
+    background: #96F79E;
+}
+
+.cwfbTimeLines tr td div.innerTimeLine.line3 {
+    background: #EFF796;
+}
+
+.cwfbTimeLines tr td div.innerTimeLine.line4 {
+    background: #96eff7;
+}
+
+.cwfbTimeLines tr td div.innerTimeLine.line5 {
+    background: #f79e96;
+}
+
+.cwfbTableParams {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Tahoma', sans-serif;
+    font-size: 11px;
+}
+
+.cwfbTableParams tr th {
+    background-color: #c4c4c4;
+    font-size: 11px;
+}
+
+.cwfbTableParams tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.cwfbTableParams tr td {
+    margin: 0;
+    padding: 4px;
+}
+
+.cwfbTableParams tr td.name {
+    font-weight: bold;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.cwfbTableParams tr td.value {
+    font-family: 'Source Code Pro', Monaco, Consolas, 'Lucida Console', monospace;
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+.cwfbTableParams tr.cwfbLogLevel-emergency {
+    background-color: #f79e96;
+}
+
+.cwfbTableParams tr.cwfbLogLevel-alert {
+    background-color: #f79e96;
+}
+
+.cwfbTableParams tr.cwfbLogLevel-critical {
+    background-color: #f79e96;
+}
+
+.cwfbTableParams tr.cwfbLogLevel-error {
+    background-color: #f79e96;
+}
+
+.cwfbTableParams tr.cwfbLogLevel-warning {
+    background-color: #EFF796;
+}
+
+.cwfbTableParams tr.cwfbLogLevel-notice {
+
+}
+
+.cwfbTableParams tr.cwfbLogLevel-info {
+
+}
+
+.cwfbTableParams tr.cwfbLogLevel-debug {
+    background-color: #96F79E;
+}
+
+.DBG_CLOCKWORKFIREBUG {
+    color: darkmagenta;
+}
