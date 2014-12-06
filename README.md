@@ -26,7 +26,7 @@ Check out:
 
 2. Install Firebug from [http://addons.mozilla.org/](https://addons.mozilla.org/firefox/addon/firebug/)
 
-3. **Not approved yet!** ~~Install Clockwork for Firebug from [http://addons.mozilla.org/](#)~~
+3. **Not approved yet!** ~~Install Clockwork for Firebug from [http://addons.mozilla.org/](https://addons.mozilla.org/ru/firefox/addon/clockwork-for-firebug/)~~
 
 3.1. Copy or checkout this repository to your computer, open [Addons manager](about:addons), select "Install Add-on From File..." and set path to install.rdf in base directory or builded XPI file
 
