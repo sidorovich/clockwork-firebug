@@ -26,13 +26,15 @@ Check out:
 
 2. Install Firebug from [http://addons.mozilla.org/](https://addons.mozilla.org/firefox/addon/firebug/)
 
-3. **Not approved yet!** ~~Install Clockwork for Firebug from [http://addons.mozilla.org/](https://addons.mozilla.org/ru/firefox/addon/clockwork-for-firebug/)~~
+3. Install Clockwork for Firebug from [http://addons.mozilla.org/](https://addons.mozilla.org/ru/firefox/addon/clockwork-for-firebug/)
 
-3.1. Copy or checkout this repository to your computer, open [Addons manager](about:addons), select "Install Add-on From File..." and set path to install.rdf in base directory or builded XPI file
+OR
+
+1. Copy or checkout this repository to your computer, open [Addons manager](about:addons), select "Install Add-on From File..." and set path to install.rdf in base directory or builded XPI file
 
 For build own XPI-file run ```ant``` in base directory (see build.xml for details)
 
-3.2. Download packed XPI-file from my [Google Drive](https://drive.google.com/open?id=0B0oH5QtMFjKKbk42QUNpVzBYQTA&authuser=0) and manually install with Addons manager
+2. Download packed XPI-file from my [Google Drive](https://drive.google.com/open?id=0B0oH5QtMFjKKbk42QUNpVzBYQTA&authuser=0) and manually install with Addons manager
 
 ## Using
 
