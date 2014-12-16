@@ -54,7 +54,7 @@ Click tabs for check any information what you need
 
 4. Get data from another Request with Clockwork Id
 
-## Licence
+## License
 
 Copyright (c) 2014 Pavel Sidorovich <p.sidorovich@gmail.com>
 
