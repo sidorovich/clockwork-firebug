@@ -34,7 +34,7 @@ OR
 
 For build own XPI-file run ```ant``` in base directory (see build.xml for details)
 
-2. Download packed XPI-file from my [Google Drive](https://drive.google.com/open?id=0B0oH5QtMFjKKbk42QUNpVzBYQTA&authuser=0) and manually install with Addons manager
+2. Download packed XPI-file from my [Google Drive](https://drive.google.com/file/d/0B0oH5QtMFjKKbk42QUNpVzBYQTA/view?usp=sharing) and manually install with Addons manager
 
 ## Using
 
