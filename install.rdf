@@ -9,7 +9,7 @@
         <em:type>2</em:type>
         <em:name>Clockwork for Firebug</em:name>
         <em:description>Firebug extension for debug web-applications with Clockwork</em:description>
-        <em:version>0.5.3</em:version>
+        <em:version>0.5.4</em:version>
 
         <em:creator>Pavel Sidorovich</em:creator>
 
@@ -21,7 +21,7 @@
             <Description>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
                 <em:minVersion>30.*</em:minVersion>
-                <em:maxVersion>42.0</em:maxVersion>
+                <em:maxVersion>46.0</em:maxVersion>
             </Description>
         </em:targetApplication>
     </RDF:Description>
